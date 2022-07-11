@@ -12,7 +12,7 @@
         @foreach ($movies as $movie)
         <li>Titolo:{{$movie['title']}}</li> 
         <li>Titolo originale:{{$movie['original_title']}}</li> 
-        <li>Lingua:{{$movie['original_title']}}</li>
+        <li>Lingua:{{$movie['nationality']}}</li>
         <hr> 
         @endforeach
     </ul>
